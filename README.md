@@ -74,6 +74,7 @@ $ python main_sketch.py
 
 ## 1. Visualization comparison
 Results on photo to sketch
+
 ![figure2](/figure/teaser.png)
 ![figure3](/figure/compare.png)
 
