@@ -37,7 +37,7 @@ Please check our [paper](https://ieeexplore.ieee.org/document/9689529)
 # Complete Architecture
 The complete architecture is shown as follows,
 
-![network](/figure/figure1.png)
+![network](/figure/network.png)
 
 # Implementation
 ## 1. Quick testing
@@ -73,10 +73,9 @@ $ python main_sketch.py
 ## Partial image visual comparison
 
 ## 1. Visualization comparison
-Results on 4x image SR on Track 1 dataset
-![figure2](/figure/figure2.png)
-![figure3](/figure/figure3.png)
-![figure4](/figure/figure4.png)
+Results on photo to sketch
+![figure2](/figure/teaser.png)
+![figure3](/figure/compare.png)
 
 
 # Reference
