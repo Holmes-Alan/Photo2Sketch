@@ -24,13 +24,13 @@ parser.add_argument('--pretrained', type=bool, default=True)
 parser.add_argument('--enc_dir', type=str, default='models/enc.pth')
 parser.add_argument('--dec_dir', type=str, default='models/dec.pth')
 parser.add_argument('--inv_dir', type=str, default='models/inv.pth')
-parser.add_argument("--image_dataset", default="data/DIV2K/",
+parser.add_argument("--image_dataset", default="data/Test/",
                     help='image dataset')
 parser.add_argument('--data_augmentation', type=bool, default=True)
 parser.add_argument('--fineSize', type=int, default=256, help='crop image size')
 parser.add_argument('--crop', type=bool, default=True, help='crop training images')
 parser.add_argument('--threads', type=int, default=0, help='number of threads for data loader to use')
-parser.add_argument("--outf", default="result/", help='folder to output images and model checkpoints')
+parser.add_argument("--outf", default="Result/", help='folder to output images and model checkpoints')
 parser.add_argument("--batchSize", type=int, default=8, help='batch size')
 parser.add_argument("--gpu_id", type=int, default=0, help='which gpu to use')
 
