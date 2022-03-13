@@ -21,10 +21,10 @@ import lpips
 parser = argparse.ArgumentParser()
 
 parser.add_argument('--pretrained', type=bool, default=True)
-parser.add_argument('--enc_dir', type=str, default='models/final/enc.pth')
-parser.add_argument('--dec_dir', type=str, default='models/final/dec.pth')
-parser.add_argument('--inv_dir', type=str, default='models/final/inv.pth')
-parser.add_argument("--image_dataset", default="/media/server2/HDDShare/face/",
+parser.add_argument('--enc_dir', type=str, default='models/enc.pth')
+parser.add_argument('--dec_dir', type=str, default='models/dec.pth')
+parser.add_argument('--inv_dir', type=str, default='models/inv.pth')
+parser.add_argument("--image_dataset", default="data/face/",
                     help='image dataset')
 parser.add_argument('--data_augmentation', type=bool, default=True)
 parser.add_argument('--fineSize', type=int, default=256, help='crop image size')
