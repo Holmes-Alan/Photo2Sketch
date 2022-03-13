@@ -18,12 +18,12 @@ from lpips import lpips
 parser = argparse.ArgumentParser()
 
 parser.add_argument('--pretrained', type=bool, default=True)
-parser.add_argument('--enc_dir', type=str, default='output/enc_iter_23000_epoch_4.pth')
-parser.add_argument('--dec_dir', type=str, default='output/dec_iter_23000_epoch_4.pth')
-parser.add_argument('--inv_dir', type=str, default='output/inv_iter_23000_epoch_4.pth')
-parser.add_argument("--stylePath", default="/media/server2/HDDShare/sketch",
+parser.add_argument('--enc_dir', type=str, default='models/enc.pth')
+parser.add_argument('--dec_dir', type=str, default='models/dec.pth')
+parser.add_argument('--inv_dir', type=str, default='models/inv.pth')
+parser.add_argument("--stylePath", default="data/sketch",
                     help='path to wikiArt dataset')
-parser.add_argument("--contentPath", default="/media/server2/HDDShare/cocoapi-master/coco",
+parser.add_argument("--contentPath", default="data/coco",
                     help='path to MSCOCO dataset')
 parser.add_argument('--data_augmentation', type=bool, default=True)
 parser.add_argument('--fineSize', type=int, default=256, help='crop image size')
